@@ -1,0 +1,28 @@
+{
+  "name": "dashiumupdateapps",
+  "version": "1.0.0",
+  "description": "Update apps dashium",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dashium/DashiumUpdateApps.git"
+  },
+  "keywords": [
+    "Dashium"
+  ],
+  "author": "Tai Tetsuyuki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dashium/DashiumUpdateApps/issues"
+  },
+  "homepage": "https://github.com/Dashium/DashiumUpdateApps#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
