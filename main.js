@@ -2,7 +2,7 @@ const child_process = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
-fs.readdir('/DashiumOS', (err, files) => {
+fs.readdir('/DashiumOS/apps/', (err, files) => {
     files.forEach(file => {
         console.log(file);
 
